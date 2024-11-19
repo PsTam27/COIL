@@ -8,25 +8,29 @@
   }
   
 
+  .advice-section{
+    background-color: #d3b3ff;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
   h2{
-    margin-top: 41px;
-    font-size: 21px;
-    margin-bottom: 3px;.header-title {
+    margin-top: 43px;
+    font-size: 18px;
+    margin-bottom: 28px;
     text-align: center;
     margin: 16px;
     padding: 8px;
     color: white;
-    font-size: 12px;
     font-weight: bold;
   }
   
 
-  h2{
-    margin-top: 41px;
-    font-size: 21px;
-    margin-bottom: 3px;
-    font-weight: bold;
-  }
+
 
 ion-button{
 
@@ -62,7 +66,7 @@ ion-card {
     font-weight: 500; /* Peso del subtítulo */
     margin-bottom: 16px;
   }
-  }
+  
 
 ion-button{
 

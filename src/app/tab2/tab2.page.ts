@@ -9,7 +9,7 @@ import { NavController } from '@ionic/angular';
 })
 export class Tab2Page implements OnInit {
 
-  userName: string = 'Nombre de usuario';
+  userName: string = 'Juan Carlos';
   dailyTips: string[] = [
     'Come más frutas. Son ricas en fibra y te ayudarán a mantenerte saludable por más tiempo.',
     'Recuerda que si sientes alguna molestia de salud debes consultar a tu doctor de confianza.',

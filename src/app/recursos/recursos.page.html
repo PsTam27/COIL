@@ -1,15 +1,23 @@
-
+<ion-header>
+  <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/inicio"></ion-back-button> <!-- Botón de retroceso -->
     </ion-buttons>
-    <ion-content>
-      <!-- Título centrado -->
-      <div class="header-title">
-        <h2>Acá podrás encontrar consejos y recursos que pueden ayudar a sobrellevar esta condición.</h2>
-      </div>
+    <ion-title>Consejos</ion-title> <!-- Título centrado -->
+  </ion-toolbar>
+</ion-header>
 
+<!-- Sección de Consejos -->
+<div class="advice-section">
+  <div class="header-row">
+    <h2>Acá podrás encontrar tips y consejos para ayudar a tu día a día.</h2>
+  </div>
+</div>
+
+<ion-content>
   <ion-grid>
     <ion-row>
+      <!-- Tarjeta de Enfermedad Renal -->
       <ion-col size="12" size-md="6">
         <ion-card class="enfermedad-renal">
           <ion-card-header>
@@ -21,6 +29,8 @@
           </ion-card-content>
         </ion-card>
       </ion-col>
+
+      <!-- Tarjeta de Hipotiroidismo -->
       <ion-col size="12" size-md="6">
         <ion-card>
           <ion-card-header>
